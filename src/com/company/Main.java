@@ -4,14 +4,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        DeckOfCards example = new DeckOfCards();
+        DeckOfCards deck = new DeckOfCards();
 
-        example.createDeck();
+        deck.createDeck();
 
-        System.out.println(example);
-        System.out.println(example.getCards().size());
-        example.draw(5);
-        System.out.println(example.getCards().size());
+//        System.out.println(deck);
+        System.out.println(deck.getCards().size());
+        deck.draw(5);
+        System.out.println(deck.getCards().size());
 
     }
 }
